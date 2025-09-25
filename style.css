@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header nav a {
   color: #707070;
   font-size: 20px;
@@ -8,8 +14,7 @@ a {
 }
 footer {
   background-color: #2e2e2e;
-  max-width: 1920px;
-  height: 207px;
+  min-height: 207px;
 }
 footer a,
 p,
@@ -31,10 +36,16 @@ section img {
   object-fit: cover;
 }
 
-.logo-images {
+.logo-facebook {
   width: 44px;
   height: 44px;
 }
+.logo-instagram {
+  width: 44px;
+  height: 44px;
+}
+
+
 .location {
   font-size: 19px;
 }
@@ -46,3 +57,9 @@ section img {
 .address {
   font-size: 13px;
 }
+
+header{
+  margin-bottom: 207px;
+}
+
+
